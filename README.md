@@ -4,59 +4,64 @@ Mac-Set-Up
 Setup my new mac
 
 
-#Install XCode
+##Install XCode
 
-In app store, search xcode and install the latest version.
+In **app store**, search *xcode* and install the latest version.
 
-#Install Sublime Text2
+##Install Sublime Text2
 
-http://sublimetext.com/
+[Visit sublime text](http://sublimetext.com/)
 Download the latest version.
 
-#Install iterm2
+##Install iterm2
 
-http://iterm2.com
+[Visit iterm2](http://iterm2.com)
 Download the latest version.
 
-#Install Home brew
+##Install Home brew
 
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
 
-#Install oh-my-zsh
+##Install oh-my-zsh
 
-curl -L http://install.ohmyz.sh | sh
+`curl -L http://install.ohmyz.sh | sh`
 
-#Install virtualenv
+##Install virtualenv
 
-sudo easy_install virtualenv
+`sudo easy_install virtualenv`
 
-#Install spectacle
+##Install spectacle
 
-http://spectacleapp.com
+[Visit spectacle](http://spectacleapp.com)
 Download the latest version.
 
-#Install FileZilla
+##Install FileZilla
 
-http://filezilla-project.org
+[Visit Filezilla](http://filezilla-project.org)
+Download the latest version.
 
-#Install boot2docker
+##Install boot2docker
 
-https://docs.docker.com/installation/mac/
+[Visit docker for Mac](https://docs.docker.com/installation/mac/)
+Download the latest version.
 
-#Install gitx
+##Install gitx
 
-http://gitx.frim.nl
+[Visit gitx](http://gitx.frim.nl)
+Download the latest version.
 
-#Install Haskell
+##Install Haskell
 
-http://www.haskell.org/platform/
+[Visit Haskell](http://www.haskell.org/platform/)
+Download the latest version.
 
-#Install Welly
+**Note: Remember to execute wrapper script**
 
-https://code.google.com/p/welly/
+##Install Welly
 
-#Install McBopomofo
+[Visit welly](https://code.google.com/p/welly/)
+Download the latest version.
 
-https://mcbopomofo.openvanilla.org
+##Install McBopomofo
 
-
+[Visit OpenVanilla](https://mcbopomofo.openvanilla.org)
