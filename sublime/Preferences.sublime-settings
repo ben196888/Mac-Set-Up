@@ -1,0 +1,11 @@
+{
+    "color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+    "flatland_sidebar_tree_xsmall": false,
+    "flatland_square_tabs": false,
+    "font_size": 17.0,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "theme": "Flatland Dark.sublime-theme"
+}
