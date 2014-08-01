@@ -6,7 +6,7 @@ Setup my new mac
 
 ##Install XCode
 
-In **app store**, search *xcode* and install the latest version.
+In **app store**, search *XCode* and install the latest version.
 
 ##Install Sublime Text2
 
@@ -65,3 +65,4 @@ Download the latest version.
 ##Install McBopomofo
 
 [Visit OpenVanilla](https://mcbopomofo.openvanilla.org)
+Download the latest version.
