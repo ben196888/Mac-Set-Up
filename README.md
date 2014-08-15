@@ -8,6 +8,18 @@ Setup my new mac
 
 In **app store**, search *XCode* and install the latest version.
 
+##Install Dropbox Agent
+
+[Download Dropbox](https://www.dropbox.com/downloading?src=index&plat=mac)
+
+##Install Google Drive Agent
+
+[Visit Google Drive](http://www.google.com/drive/download/)
+
+##Install Copy Agent
+
+[Download Copy](https://copy.com/install/mac/Copy.dmg)
+
 ##Install Sublime Text2
 
 [Visit sublime text](http://sublimetext.com/)
@@ -35,6 +47,10 @@ Download the latest version.
 [Visit spectacle](http://spectacleapp.com)
 Download the latest version.
 
+##Install f.lux
+[Visit f.lux](https://justgetflux.com)
+Download the latest version.
+
 ##Install FileZilla
 
 [Visit Filezilla](http://filezilla-project.org)
@@ -45,7 +61,7 @@ Download the latest version.
 [Visit docker for Mac](https://docs.docker.com/installation/mac/)
 Download the latest version.
 
-##Install gitx
+##Install SourceTree
 
 [Visit gitx](http://gitx.frim.nl)
 Download the latest version.
@@ -65,4 +81,8 @@ Download the latest version.
 ##Install McBopomofo
 
 [Visit OpenVanilla](https://mcbopomofo.openvanilla.org)
+Download the latest version.
+
+##Install Transmission
+[Visit Transmission](http://www.transmissionbt.com/download/)
 Download the latest version.
