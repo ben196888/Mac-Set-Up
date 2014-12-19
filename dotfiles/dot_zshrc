@@ -98,9 +98,16 @@ dce() {
         # rm all containers with 'exit' status
          docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs docker rm
 }
-alias dockerclean="dce; dcc; dci"
+alias docker-clean="dce; dcc; dci"
 alias b2d="boot2docker"
+alias d="docker"
+alias g="git"
 export DOCKER_HOST=tcp://192.168.59.103:2375
+docker-enter() {
+  boot2docker ssh '[ -f /var/lib/boot2docker/nsenter ] || docker run --rm -v /var/lib/boot2docker/:/target jpetazzo/nsenter'
+  boot2docker ssh -t sudo /var/lib/boot2docker/docker-enter "$@"
+}
+
 
 # Keypad
 # 0 . Enter
@@ -126,3 +133,5 @@ bindkey -s "^[Oj" "*"
 bindkey -s "^[Oo" "/"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+source ~/.git-prompt.sh
