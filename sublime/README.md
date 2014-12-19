@@ -14,3 +14,4 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 ##Install Robot Framework Assistant
 ##Install SetDjangoSyntax
 ##Install Djaneiro
+##Install DockerfileSyntax
