@@ -26,7 +26,7 @@ Download the latest version.
 
 ##Install Home brew
 
-`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 ##Install oh-my-zsh
 
@@ -80,9 +80,9 @@ Download the latest version.
 
 [Visit Google Drive](http://www.google.com/drive/download/)
 
-##Install Copy Agent
+##~~Install Copy Agent~~(Project Closed)
 
-[Download Copy](https://copy.com/install/mac/Copy.dmg)
+~~[Download Copy](https://copy.com/install/mac/Copy.dmg)~~
 
 ##Install f.lux
 [Visit f.lux](https://justgetflux.com)
