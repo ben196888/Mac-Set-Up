@@ -3,26 +3,20 @@ Mac-Set-Up
 
 Setup my new mac
 
+# Primary
 
 ##Install XCode
 
 In **app store**, search *XCode* and install the latest version.
 
-##Install Dropbox Agent
-
-[Download Dropbox](https://www.dropbox.com/downloading?src=index&plat=mac)
-
-##Install Google Drive Agent
-
-[Visit Google Drive](http://www.google.com/drive/download/)
-
-##Install Copy Agent
-
-[Download Copy](https://copy.com/install/mac/Copy.dmg)
-
 ##Install Sublime Text2
 
 [Visit sublime text](http://sublimetext.com/)
+Download the latest version.
+
+##Install Atom
+
+[Visit Atom](https://atom.io/)
 Download the latest version.
 
 ##Install iterm2
@@ -47,15 +41,6 @@ Download the latest version.
 [Visit spectacle](http://spectacleapp.com)
 Download the latest version.
 
-##Install f.lux
-[Visit f.lux](https://justgetflux.com)
-Download the latest version.
-
-##Install FileZilla
-
-[Visit Filezilla](http://filezilla-project.org)
-Download the latest version.
-
 ##Install boot2docker
 
 [Visit docker for Mac](https://docs.docker.com/installation/mac/)
@@ -66,6 +51,8 @@ Download the latest version.
 [Visit gitx](http://gitx.frim.nl)
 Download the latest version.
 
+# Secondary
+
 ##Install Haskell
 
 [Visit Haskell](http://www.haskell.org/platform/)
@@ -73,14 +60,37 @@ Download the latest version.
 
 **Note: Remember to execute wrapper script**
 
-##Install Welly
+##Install FileZilla
 
-[Visit welly](https://code.google.com/p/welly/)
+[Visit Filezilla](http://filezilla-project.org)
 Download the latest version.
 
 ##Install McBopomofo
 
 [Visit OpenVanilla](https://mcbopomofo.openvanilla.org)
+Download the latest version.
+
+# Optional
+
+##Install Dropbox Agent
+
+[Download Dropbox](https://www.dropbox.com/downloading?src=index&plat=mac)
+
+##Install Google Drive Agent
+
+[Visit Google Drive](http://www.google.com/drive/download/)
+
+##Install Copy Agent
+
+[Download Copy](https://copy.com/install/mac/Copy.dmg)
+
+##Install f.lux
+[Visit f.lux](https://justgetflux.com)
+Download the latest version.
+
+##Install Welly
+
+[Visit welly](https://code.google.com/p/welly/)
 Download the latest version.
 
 ##Install Transmission
