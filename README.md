@@ -19,10 +19,18 @@ Download the latest version.
 [Visit Atom](https://atom.io/)
 Download the latest version.
 
-##Install iterm2
+##Install iterm
+
+###Install iterm2
 
 [Visit iterm2](http://iterm2.com)
 Download the latest version.
+
+###Configure color schemes
+
+Visit [github page](https://github.com/mbadolato/iTerm2-Color-Schemes) to get more details
+`git clone https://github.com/mbadolato/iTerm2-Color-Schemes`
+Import and use `MaterialDark` in iTerm2.
 
 ##Install Home brew
 
