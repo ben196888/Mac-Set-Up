@@ -34,7 +34,13 @@ Import and use `MaterialDark` in iTerm2.
 
 ##Install Home brew
 
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+```
+# Install Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install Homebrew-cask
+brew install caskroom/cask/brew-cask
+```
 
 ##~~Install oh-my-zsh~~(Replaced by fish)
 
