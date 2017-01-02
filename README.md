@@ -106,6 +106,10 @@ Download the latest version.
 brew install heroku
 ```
 
+##Install Dash
+
+[Visit kapeli website](https://kapeli.com/dash) to download the latest version.
+
 # Secondary
 
 ##Install Haskell
