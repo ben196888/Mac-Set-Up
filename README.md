@@ -97,7 +97,8 @@ Visit [docker's official website](https://docs.docker.com/docker-for-mac/docker-
 
 ##Install SourceTree
 
-[Visit gitx](http://gitx.frim.nl)
+~[Visit gitx](http://gitx.frim.nl)~
+Visit [SourceTreeApp.com](https://www.sourcetreeapp.com/)
 Download the latest version.
 
 # Secondary
