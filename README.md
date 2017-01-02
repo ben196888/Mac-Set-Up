@@ -102,7 +102,9 @@ Download the latest version.
 
 ##Install Heroku CLI
 
-Visit [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) page and download latest version.
+```
+brew install heroku
+```
 
 # Secondary
 
