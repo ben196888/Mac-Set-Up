@@ -85,10 +85,15 @@ Visit [github page](https://github.com/fisherman/fisherman) of fisherman to get 
 [Visit spectacle](http://spectacleapp.com)
 Download the latest version.
 
-##Install boot2docker
+##~~Install boot2docker~~(Replaced by docker-for-mac and docker-toolbox)
 
-[Visit docker for Mac](https://docs.docker.com/installation/mac/)
-Download the latest version.
+~~[Visit docker for Mac](https://docs.docker.com/installation/mac/)~~
+~~Download the latest version.~~
+
+Download the latest version of [docker-toolbox](https://docs.docker.com/docker-for-mac/). If you get some cross-compiling problems, you could install docker-for-mac. Docker-for-mac and docker-toolbox can coexist at the same time but with different docker environment-variables.
+
+Visit [docker's official website](https://docs.docker.com/docker-for-mac/docker-toolbox/) to get more details about docker-for-mac and docker-toolbox.
+
 
 ##Install SourceTree
 
