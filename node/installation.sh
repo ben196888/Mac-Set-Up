@@ -13,4 +13,4 @@ yarn global add cross-env
 yarn global add webpack-dev-server
 yarn global add eslint
 yarn global add mocha
-yarn global add gh-page
+yarn global add gh-pages
