@@ -15,3 +15,9 @@ brew install ripgrep
 
 # Install deployment tools/otherCLI
 brew install heroku
+
+# brew cask install
+###################
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
