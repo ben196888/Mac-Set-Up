@@ -10,5 +10,8 @@ brew doctor
 brew install node
 brew install yarn
 
+# Install optimized tools
+brew install ripgrep
+
 # Install deployment tools/otherCLI
 brew install heroku
