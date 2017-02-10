@@ -13,6 +13,7 @@ yarn global add cross-env
 yarn global add webpack-dev-server
 yarn global add eslint
 yarn global add mocha
+yarn global add jest
 yarn global add gh-pages
 yarn global add bower
 yarn global add ember
