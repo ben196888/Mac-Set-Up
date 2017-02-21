@@ -13,6 +13,9 @@ brew install yarn
 # Install optimized tools
 brew install ripgrep
 
+# Install internet tools
+brew install nmap
+
 # Install deployment tools/otherCLI
 brew install heroku
 
