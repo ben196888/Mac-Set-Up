@@ -9,6 +9,7 @@ brew doctor
 # Install developing tools
 brew install node
 brew install yarn
+brew install leiningen
 
 # Install optimized tools
 brew install ripgrep
