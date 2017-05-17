@@ -19,5 +19,3 @@ yarn global add jest
 yarn global add gh-pages
 yarn global add bower
 yarn global add typescript
-yarn global add ember
-yarn global add yuidocjs
