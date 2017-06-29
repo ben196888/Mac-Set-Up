@@ -1,0 +1,4 @@
+user.name=Ben Liu
+user.email=ben196888@gmail.com
+pull.rebase=true
+merge.ff=false
