@@ -10,6 +10,7 @@ brew doctor
 brew install node
 brew install yarn
 brew install leiningen
+brew install python3
 
 # Install optimized tools
 brew install ripgrep
