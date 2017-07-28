@@ -15,6 +15,9 @@ brew install python3
 # Install optimized tools
 brew install ripgrep
 
+# Install security tools
+brew install gpg2
+
 # Install internet tools
 brew install nmap
 
