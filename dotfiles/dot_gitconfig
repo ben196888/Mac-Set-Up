@@ -1,0 +1,58 @@
+[user]
+	name = Ben Liu
+	email = ben196888@gmail.com
+
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore_global
+
+[pull]
+	rebase = true
+
+[merge]
+	ff = false
+
+[alias]
+	a = add
+	au = add -u
+	ap = add -p
+	###############
+	br = branch
+	###############
+	c = commit
+	cm = commit -m
+	cho = checkout
+	chp = cherrypick
+	###############
+	d = diff
+	dc = diff --cached
+	dh = diff --histogram
+	###############
+	f = fetch
+	fa = fetch --all
+	fap = fetch --all --prune
+	###############
+	lo = log --graph --oneline --decorate
+	loa = log --graph --oneline --decorate --all
+	###############
+	me = merge
+	mea = merge --abort
+	mec = merge --continue
+	###############
+	pl = pull
+	ps = push
+	psf = push --force
+	###############
+	reb = rebase
+	rebi = rebase -i
+	rebc = rebase --continue
+	reba = rebase --abort
+	res = reset
+	resh = reset --hard
+	ress = reset --soft
+	###############
+	sth = stash
+	sthl = stash list
+	sthp = stash pop
+	stt = status
+	###############
