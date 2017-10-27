@@ -12,6 +12,9 @@ brew cask install google-chrome
 brew cask install atom
 brew cask install visual-studio-code
 
+# Install Docker for mac
+brew cask install docker
+
 # Install IM
 brew cask install slack
 brew cask install telegram
