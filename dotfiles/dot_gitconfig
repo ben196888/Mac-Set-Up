@@ -32,6 +32,8 @@
 	fa = fetch --all
 	fap = fetch --all --prune
 	###############
+	i = init
+	###############
 	lo = log --graph --oneline --decorate
 	loa = log --graph --oneline --decorate --all
 	###############
