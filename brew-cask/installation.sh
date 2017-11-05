@@ -1,3 +1,4 @@
+#!/bin/sh
 # brew cask install
 ###################
 
@@ -32,4 +33,3 @@ brew cask install vagrant-manager
 brew cask install fork
 brew cask install spectacle
 brew cask install rescuetime
-
