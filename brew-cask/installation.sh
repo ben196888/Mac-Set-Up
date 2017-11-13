@@ -15,6 +15,9 @@ brew cask install visual-studio-code
 # Install Docker for mac
 brew cask install docker
 
+# Install Java
+brew cask install java
+
 # Install IM
 brew cask install slack
 brew cask install telegram
@@ -29,3 +32,4 @@ brew cask install vagrant-manager
 brew cask install fork
 brew cask install spectacle
 brew cask install rescuetime
+
