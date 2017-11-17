@@ -28,7 +28,9 @@
 	c = commit
 	cm = commit -m
 	cho = checkout
-	chp = cherrypick
+	chp = cherry-pick
+	chpa = cherry-pick --abort
+	chpc = cherry-pick --continue
 	###############
 	d = diff
 	dc = diff --cached
