@@ -5,9 +5,7 @@ npm install -g npm
 
 # Use yarn instead of npm
 # Install react developing environment
-#npm install -g create-react-app
 yarn global add create-react-app
-#npm install -g webpack
 yarn global add webpack
 yarn global add cross-env
 yarn global add webpack-dev-server
