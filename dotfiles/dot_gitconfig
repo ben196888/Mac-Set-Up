@@ -27,6 +27,7 @@
 	###############
 	c = commit
 	cm = commit -m
+	clo = clone
 	cho = checkout
 	chp = cherry-pick
 	chpa = cherry-pick --abort
