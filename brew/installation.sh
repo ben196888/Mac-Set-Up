@@ -16,6 +16,11 @@ brew install clojure
 brew install leiningen
 brew install python3
 
+# Install golang
+mkdir $HOME/Go
+mkdir -p $HOME/Go/src/github.com/ben196888
+brew install go
+
 # Install optimized tools
 brew install ripgrep
 
