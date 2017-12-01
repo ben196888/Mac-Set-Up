@@ -29,6 +29,9 @@ brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
 
+# Install minikube
+brew cask install minikube
+
 # Install Helper tools
 brew cask install fork
 brew cask install spectacle
