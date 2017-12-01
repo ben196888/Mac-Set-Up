@@ -31,4 +31,5 @@ brew install gpg2
 brew install nmap
 
 # Install deployment tools/otherCLI
+brew install kubectl
 brew install heroku
