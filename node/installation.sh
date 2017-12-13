@@ -15,7 +15,7 @@ yarn global add eslint-to-editorconfig
 yarn global add mocha
 yarn global add jest
 yarn global add gh-pages
-yarn global add alex
 yarn global add bower
 yarn global add typescript
 yarn global add typings
+
