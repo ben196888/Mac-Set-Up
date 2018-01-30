@@ -13,6 +13,10 @@ brew cask install google-chrome
 brew cask install atom
 brew cask install visual-studio-code
 
+# Install LaTeX
+brew cask install mactex
+brew cask install texmaker
+
 # Install Docker for mac
 brew cask install docker
 
