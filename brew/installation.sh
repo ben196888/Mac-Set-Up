@@ -20,6 +20,7 @@ brew install python3
 mkdir $HOME/Go
 mkdir -p $HOME/Go/src/github.com/ben196888
 brew install go
+brew install glide
 
 # Install xhyve & docker-machine-driver-xhyve
 brew install --HEAD xhyve
