@@ -21,6 +21,11 @@ cd node
 ./installation.sh
 cd ..
 
+# Install python packages and clis
+cd python
+./installation.sh
+cd ..
+
 # Install atom packages and themes
 cd atom
 ./installation.sh
