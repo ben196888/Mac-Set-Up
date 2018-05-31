@@ -2,6 +2,8 @@
 
 # Install Xcode Command Line Tools
 xcode-select --install
+# node-gyp rebuild issue. Enable command lint tools and ignore the warnings.
+sudo xcode-select --switch /Library/Developer/CommandLineTools
 
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
