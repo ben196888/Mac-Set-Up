@@ -11,6 +11,7 @@ brew install fish
 
 # Install developing tools
 brew install node
+brew install nvm
 brew install yarn
 brew install clojure
 brew install leiningen
