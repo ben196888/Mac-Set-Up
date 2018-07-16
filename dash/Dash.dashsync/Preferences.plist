@@ -44,7 +44,7 @@
 			<key>ReactiveX/rxjs</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-04T00:14:56Z</date>
+				<date>2018-07-15T23:55:56Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -133,6 +133,26 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>Restify</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-16T01:56:30Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Restify#readme</string>
+					<key>authorLinkText</key>
+					<string>Carsten Schabacker</string>
+					<key>name</key>
+					<string>Restify</string>
+					<key>platform</key>
+					<string>usercontribRestify</string>
+					<key>uniqueIdentifier</key>
+					<string>Restify</string>
+				</dict>
+			</dict>
 			<key>RxJS</key>
 			<dict>
 				<key>date</key>
@@ -217,6 +237,11 @@
 			<dict>
 				<key>date</key>
 				<date>2017-10-26T02:47:03Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/PostgreSQL.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-16T01:56:27Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/React.xml</key>
 			<dict>
