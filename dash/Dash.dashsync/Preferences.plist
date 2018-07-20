@@ -26,11 +26,13 @@
 	<key>DHGitHubRepo</key>
 	<dict>
 		<key>installed</key>
+		<dict/>
+		<key>uninstalled</key>
 		<dict>
 			<key>Reactive-Extensions/RxJS</key>
 			<dict>
 				<key>date</key>
-				<date>2018-06-29T03:27:53Z</date>
+				<date>2018-07-16T02:02:29Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -44,7 +46,7 @@
 			<key>ReactiveX/rxjs</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-15T23:55:56Z</date>
+				<date>2018-07-16T02:02:27Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -58,7 +60,7 @@
 			<key>facebook/immutable-js</key>
 			<dict>
 				<key>date</key>
-				<date>2018-05-31T23:47:08Z</date>
+				<date>2018-07-16T02:02:38Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -70,8 +72,6 @@
 				</dict>
 			</dict>
 		</dict>
-		<key>uninstalled</key>
-		<dict/>
 	</dict>
 	<key>DHGoRepo</key>
 	<dict>
@@ -133,6 +133,61 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>Immutable.js</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-16T02:02:16Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>immutable</string>
+						<string>immutable-js</string>
+						<string>immutablejs</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Immutable.js#readme</string>
+					<key>authorLinkText</key>
+					<string>Michal Cichra</string>
+					<key>name</key>
+					<string>Immutable.js</string>
+					<key>platform</key>
+					<string>usercontribImmutable.js</string>
+					<key>uniqueIdentifier</key>
+					<string>Immutable.js</string>
+				</dict>
+			</dict>
+			<key>Jest</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-18T03:11:46Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>Jest</string>
+						<string>React</string>
+						<string>Webpack</string>
+						<string>jQuery</string>
+						<string>CoffeeScript</string>
+						<string>Facebook</string>
+						<string>JavaScript</string>
+						<string>Reactjs</string>
+						<string>UI</string>
+						<string>Unit Test</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Jest#readme</string>
+					<key>authorLinkText</key>
+					<string>Xianming Zhong</string>
+					<key>name</key>
+					<string>Jest</string>
+					<key>platform</key>
+					<string>usercontribJest</string>
+					<key>uniqueIdentifier</key>
+					<string>Jest</string>
+				</dict>
+			</dict>
 			<key>Restify</key>
 			<dict>
 				<key>date</key>
@@ -212,6 +267,11 @@
 			<dict>
 				<key>date</key>
 				<date>2017-10-26T02:47:23Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/JavaScript.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-17T07:42:24Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Lo-Dash.xml</key>
 			<dict>
