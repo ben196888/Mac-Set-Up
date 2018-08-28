@@ -237,7 +237,10 @@
 	<key>docsets</key>
 	<dict>
 		<key>keywords</key>
-		<dict/>
+		<dict>
+			<key>~/Library/Application Support/Dash/DocSets/JavaScript/JavaScript.docset</key>
+			<string>js:</string>
+		</dict>
 	</dict>
 	<key>feeds</key>
 	<dict>
