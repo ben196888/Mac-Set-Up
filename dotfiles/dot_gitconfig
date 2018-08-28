@@ -3,11 +3,17 @@
 	email = ben196888@gmail.com
 
 [core]
-	editor = vim
+	editor = code --wait
 	excludesfile = ~/.gitignore_global
 
 [commit]
 	gpgsign = true
+
+[diff]
+	tool = default-difftool
+
+[difftool "default-difftool"]
+	cmd = code --wait --diff $LOCAL $REMOTE
 
 [gpg]
 	program = /usr/local/bin/gpg
@@ -67,4 +73,3 @@
 	sthp = stash pop
 	stt = status
 	###############
-
