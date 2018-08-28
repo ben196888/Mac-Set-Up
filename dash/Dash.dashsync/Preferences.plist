@@ -318,6 +318,11 @@
 				<key>date</key>
 				<date>2018-07-03T01:07:00Z</date>
 			</dict>
+			<key>http://kapeli.com/feeds/TypeScript.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2018-08-28T01:21:28Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/UnderscoreJS.xml</key>
 			<dict>
 				<key>date</key>
