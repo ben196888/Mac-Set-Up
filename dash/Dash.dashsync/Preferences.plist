@@ -326,11 +326,6 @@
 				<key>date</key>
 				<date>2018-08-28T01:21:28Z</date>
 			</dict>
-			<key>http://kapeli.com/feeds/UnderscoreJS.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2017-10-26T02:47:36Z</date>
-			</dict>
 			<key>http://kapeli.com/feeds/VueJS.xml</key>
 			<dict>
 				<key>date</key>
@@ -343,6 +338,11 @@
 			<dict>
 				<key>date</key>
 				<date>2017-10-26T23:30:55Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/UnderscoreJS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2018-08-31T01:51:00Z</date>
 			</dict>
 		</dict>
 	</dict>
