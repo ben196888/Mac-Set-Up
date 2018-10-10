@@ -24,12 +24,7 @@ ms-vscode.csharp
 ms-vscode.Go
 msjsdiag.debugger-for-chrome
 naereen.makefiles-support-for-vscode
-redhat.java
 schneiderpat.aspnet-helper
 stiansivertsen.visualclojure
 streetsidesoftware.avro
-vscjava.vscode-java-debug
-vscjava.vscode-java-pack
-vscjava.vscode-java-test
-vscjava.vscode-maven
 xabikos.JavaScriptSnippets
