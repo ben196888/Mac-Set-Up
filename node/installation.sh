@@ -6,6 +6,10 @@ npm install -g npm
 # Use yarn instead of npm
 # Install n as a nvm replacement
 yarn global add n
+
+# Install execute npm package binaries
+yarn global add npx
+
 # Install react developing environment
 yarn global add create-react-app
 yarn global add create-react-native-app
