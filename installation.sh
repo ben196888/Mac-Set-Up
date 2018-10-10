@@ -28,11 +28,6 @@ cd python
 ./installation.sh
 cd ..
 
-# Install atom packages and themes
-cd atom
-./installation.sh
-cd ..
-
 # Setup fish
 echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
