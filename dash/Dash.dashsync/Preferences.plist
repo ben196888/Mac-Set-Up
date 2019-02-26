@@ -171,7 +171,7 @@
 			<key>Immutable.js</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-16T02:02:16Z</date>
+				<date>2018-10-01T01:27:31Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -195,7 +195,7 @@
 			<key>Jest</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-18T03:11:46Z</date>
+				<date>2019-02-10T22:14:41Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -226,7 +226,7 @@
 			<key>Restify</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-16T01:56:30Z</date>
+				<date>2018-10-01T01:27:31Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -246,7 +246,7 @@
 			<key>RxJS</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-11T05:08:00Z</date>
+				<date>2019-02-05T04:50:12Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -254,7 +254,7 @@
 					<key>authorLinkHref</key>
 					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/RxJS#readme</string>
 					<key>authorLinkText</key>
-					<string>Ian Sinnott</string>
+					<string>Steve Yin</string>
 					<key>name</key>
 					<string>RxJS</string>
 					<key>platform</key>
@@ -288,87 +288,87 @@
 			<key>http://kapeli.com/feeds/Chai.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-05-07T06:31:19Z</date>
+				<date>2018-10-01T01:27:33Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/D3JS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-10-26T02:46:35Z</date>
+				<date>2018-10-01T01:27:42Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Docker.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-10-26T02:47:06Z</date>
+				<date>2018-10-01T01:30:04Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Express.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-11-28T22:26:29Z</date>
+				<date>2018-10-01T01:27:34Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Go.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-10-26T02:47:23Z</date>
+				<date>2018-10-01T01:27:50Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/JavaScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-17T07:42:24Z</date>
+				<date>2018-10-01T01:32:04Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Lo-Dash.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-10-26T02:47:47Z</date>
+				<date>2018-10-01T01:27:57Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Mocha.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-05-07T06:31:25Z</date>
+				<date>2018-10-01T01:27:45Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/MomentJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-11-05T23:19:56Z</date>
+				<date>2018-10-01T01:27:45Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/MongoDB.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-06-28T06:42:18Z</date>
+				<date>2018-10-01T01:28:01Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/NodeJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-10-26T02:47:03Z</date>
+				<date>2018-10-01T01:27:57Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/PostgreSQL.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-16T01:56:27Z</date>
+				<date>2018-10-01T01:27:47Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/React.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-10-26T02:47:08Z</date>
+				<date>2018-10-01T01:28:02Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Redis.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-11-28T22:24:50Z</date>
+				<date>2018-10-01T01:27:58Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Sinon.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-03T01:07:00Z</date>
+				<date>2018-10-01T01:27:57Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/TypeScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-08-28T01:21:28Z</date>
+				<date>2018-10-01T01:27:57Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/VueJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-10-26T02:47:33Z</date>
+				<date>2018-10-01T01:27:58Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
