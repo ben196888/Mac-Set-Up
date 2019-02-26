@@ -26,7 +26,22 @@
 	<key>DHGitHubRepo</key>
 	<dict>
 		<key>installed</key>
-		<dict/>
+		<dict>
+			<key>domenic/sinon-chai</key>
+			<dict>
+				<key>date</key>
+				<date>2018-11-28T02:52:05Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>domenic/sinon-chai</string>
+					<key>platform</key>
+					<string>github</string>
+					<key>uniqueIdentifier</key>
+					<string>domenic/sinon-chai</string>
+				</dict>
+			</dict>
+		</dict>
 		<key>uninstalled</key>
 		<dict>
 			<key>Reactive-Extensions/RxJS</key>
@@ -94,6 +109,8 @@
 		<key>uninstalled</key>
 		<dict/>
 	</dict>
+	<key>DHHighlightedWebViewTextSizeMultiplier</key>
+	<real>0.83333331346511841</real>
 	<key>DHJavaRepo</key>
 	<dict>
 		<key>installed</key>
@@ -133,6 +150,24 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>Enzyme</key>
+			<dict>
+				<key>date</key>
+				<date>2018-11-04T23:46:33Z</date>
+				<key>entry</key>
+				<dict>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Enzyme#readme</string>
+					<key>authorLinkText</key>
+					<string>Jason Weir</string>
+					<key>name</key>
+					<string>Enzyme</string>
+					<key>platform</key>
+					<string>usercontribEnzyme</string>
+					<key>uniqueIdentifier</key>
+					<string>Enzyme</string>
+				</dict>
+			</dict>
 			<key>Immutable.js</key>
 			<dict>
 				<key>date</key>
