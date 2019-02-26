@@ -10,7 +10,6 @@ brew cask install firefox
 brew cask install google-chrome
 
 # Install Editors
-brew cask install atom
 brew cask install visual-studio-code
 
 # Install LaTeX
@@ -22,6 +21,12 @@ brew cask install docker
 
 # Install Java
 brew cask install java
+
+# Install Postman
+brew cask install postman
+
+# Install Spotify
+brew cask install spotify
 
 # Install IM
 brew cask install slack
