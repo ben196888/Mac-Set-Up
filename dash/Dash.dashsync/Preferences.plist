@@ -430,6 +430,8 @@
 	<false/>
 	<key>shouldStartAtLogin</key>
 	<true/>
+	<key>shouldSyncBookmarks</key>
+	<true/>
 	<key>shouldSyncDocsets</key>
 	<true/>
 	<key>shouldSyncGeneral</key>
@@ -536,6 +538,45 @@
 		<key>uninstalled</key>
 		<dict/>
 	</dict>
+	<key>webSearches</key>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>Google</string>
+			<key>isDefault</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>name</key>
+			<string>Google</string>
+			<key>url</key>
+			<string>https://www.google.com/search?q={query}</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>DuckDuckGo</string>
+			<key>isDefault</key>
+			<true/>
+			<key>isEnabled</key>
+			<false/>
+			<key>name</key>
+			<string>DuckDuckGo</string>
+			<key>url</key>
+			<string>https://duckduckgo.com/?q={query}&amp;ia=web</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>Stack Overflow</string>
+			<key>isDefault</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>name</key>
+			<string>Stack Overflow</string>
+			<key>url</key>
+			<string>https://stackoverflow.com/search?q={query}</string>
+		</dict>
+	</array>
 	<key>windowStyle</key>
 	<string>Standard</string>
 </dict>
