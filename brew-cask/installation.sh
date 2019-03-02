@@ -42,7 +42,8 @@ brew cask install vagrant-manager
 brew cask install minikube
 
 # Install Helper tools
-brew cask install fork
 brew cask install spectacle
 brew cask install dash
-brew cask install rescuetime
+brew cask install alfred
+
+brew cask install fork
