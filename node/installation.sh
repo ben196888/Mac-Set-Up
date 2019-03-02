@@ -12,7 +12,8 @@ yarn global add npx
 
 # Install react developing environment
 yarn global add create-react-app
-yarn global add create-react-native-app
+yarn global add expo-cli
+yarn global add react-native-cli
 
 # Environment
 yarn global add cross-env
@@ -40,4 +41,3 @@ yarn global add typings
 
 # Other
 yarn global add gitmoji-cli
-
