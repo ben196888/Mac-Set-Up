@@ -13,8 +13,7 @@ brew install fish
 brew install node
 brew install nvm
 brew install yarn
-brew install clojure
-brew install leiningen
+brew install watchman
 brew install python3
 
 # Install golang
