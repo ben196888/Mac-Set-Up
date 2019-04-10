@@ -43,4 +43,5 @@ brew install nmap
 
 # Install deployment tools/otherCLI
 brew install kubectl
+brew install kompose
 brew install heroku
