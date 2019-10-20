@@ -6,12 +6,18 @@ brew update
 # Check the health
 brew doctor
 
+# Install OpenSSL
+brew install openssl
+
 # Install fish
-brew install fish
+# brew install fish
+
+# Install zsh
+brew install zsh
 
 # Install developing tools
 brew install node
-brew install nvm
+brew install n
 brew install yarn
 brew install watchman
 brew install python3
@@ -33,7 +39,15 @@ sudo chmod u+s $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machi
 brew install gettext
 
 # Install optimized tools
+#########################
+# Install rg to replace grep
 brew install ripgrep
+# Install command line fuzzy finder
+brew install fzf
+# Install tree
+brew install tree
+# Install ack
+brew install ack
 
 # Install security tools
 brew install gpg2
@@ -44,4 +58,6 @@ brew install nmap
 # Install deployment tools/otherCLI
 brew install kubectl
 brew install kompose
+
+brew install awscli
 brew install heroku

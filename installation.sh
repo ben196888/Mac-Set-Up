@@ -8,13 +8,13 @@ sudo xcode-select --switch /Library/Developer/CommandLineTools
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Install gui apps through brew cask
-cd brew-cask
+# Install cmd line tools through brew
+cd brew
 ./installation.sh
 cd ..
 
-# Install cmd line tools through brew
-cd brew
+# Install gui apps through brew cask
+cd brew-cask
 ./installation.sh
 cd ..
 
@@ -29,7 +29,7 @@ cd python
 cd ..
 
 # Setup fish
-echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
-chsh -s /usr/local/bin/fish
-mkdir -p ~/.config/fish
-touch ~/.config/fish/config.fish
+# echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
+# chsh -s /usr/local/bin/fish
+# mkdir -p ~/.config/fish
+# touch ~/.config/fish/config.fish

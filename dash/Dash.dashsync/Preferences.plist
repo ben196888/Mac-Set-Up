@@ -30,7 +30,7 @@
 			<key>domenic/sinon-chai</key>
 			<dict>
 				<key>date</key>
-				<date>2018-11-28T02:52:05Z</date>
+				<date>2019-10-06T01:59:08Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -153,7 +153,7 @@
 			<key>Enzyme</key>
 			<dict>
 				<key>date</key>
-				<date>2018-11-04T23:46:33Z</date>
+				<date>2019-03-24T00:03:41Z</date>
 				<key>entry</key>
 				<dict>
 					<key>authorLinkHref</key>
@@ -195,7 +195,7 @@
 			<key>Jest</key>
 			<dict>
 				<key>date</key>
-				<date>2019-02-10T22:14:41Z</date>
+				<date>2019-02-28T12:10:04Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -246,7 +246,7 @@
 			<key>RxJS</key>
 			<dict>
 				<key>date</key>
-				<date>2019-02-05T04:50:12Z</date>
+				<date>2019-09-22T00:09:18Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -254,7 +254,7 @@
 					<key>authorLinkHref</key>
 					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/RxJS#readme</string>
 					<key>authorLinkText</key>
-					<string>Steve Yin</string>
+					<string>Ian Sinnott</string>
 					<key>name</key>
 					<string>RxJS</string>
 					<key>platform</key>
@@ -381,7 +381,7 @@
 			<key>http://kapeli.com/feeds/UnderscoreJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-08-31T01:51:00Z</date>
+				<date>2018-10-14T13:49:56Z</date>
 			</dict>
 		</dict>
 	</dict>

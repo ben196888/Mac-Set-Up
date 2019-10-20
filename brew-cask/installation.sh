@@ -22,8 +22,20 @@ brew cask install docker
 # Install Java
 brew cask install java
 
+# Install Dotnet SDK
+brew cask install dotnet-sdk
+
 # Install Postman
 brew cask install postman
+
+# Install google cloud SDK
+brew cask install google-cloud-sdk
+
+# Install apps
+#################
+
+# Install Clean App
+brew cask install cleanapp
 
 # Install Spotify
 brew cask install spotify

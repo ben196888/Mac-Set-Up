@@ -1,8 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Install virtualenv
 pip3 install virtualenv
-
-# Install aws cli
-pip3 install awscli
-

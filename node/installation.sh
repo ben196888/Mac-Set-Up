@@ -4,8 +4,6 @@
 npm install -g npm
 
 # Use yarn instead of npm
-# Install n as a nvm replacement
-yarn global add n
 
 # Install execute npm package binaries
 yarn global add npx
