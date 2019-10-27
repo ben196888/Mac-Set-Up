@@ -58,3 +58,6 @@ brew cask install spectacle
 brew cask install dash
 
 brew cask install fork
+
+# Install transmission
+brew cask install transmission
