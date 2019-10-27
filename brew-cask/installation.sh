@@ -34,8 +34,8 @@ brew cask install google-cloud-sdk
 # Install apps
 #################
 
-# Install Clean App
-brew cask install cleanapp
+# Install app cleaner
+brew cask install appcleaner
 
 # Install Spotify
 brew cask install spotify
@@ -56,6 +56,5 @@ brew cask install minikube
 # Install Helper tools
 brew cask install spectacle
 brew cask install dash
-brew cask install alfred
 
 brew cask install fork
