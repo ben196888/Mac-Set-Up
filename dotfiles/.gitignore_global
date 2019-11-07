@@ -56,7 +56,3 @@ dump.rdb
 #Icon?
 ehthumbs.db
 Thumbs.db
-
-# Yarn files #
-##############
-yarn.lock
