@@ -1,24 +1,23 @@
-Mac-Set-Up
-==========
+# Mac-Set-Up
 
 Setup my new mac in one line
 
-```
+```shell
 ./install.sh
 ```
 
-## Install Homebrew
+## Todo
 
-```
-# Install Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+- download zip from release
+- don't install iterm2 color schemes but import the color settings
+- auto setup and import iterm2 configs
+- auto setup vscode
+- auto setup dash
 
-## Homebrew cask install gui apps
 
-## iterm2
+### Notes
 
-### Configure color schemes
+#### iterm2 - Configure color schemes
 
 Visit [github page](https://github.com/mbadolato/iTerm2-Color-Schemes) to get more details
 `git clone https://github.com/mbadolato/iTerm2-Color-Schemes`
