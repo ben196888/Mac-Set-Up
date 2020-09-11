@@ -1,5 +1,13 @@
 #!/bin/sh
 
+function brew_install_or_upgrade {
+    if brew ls --versions "$1" >/dev/null; then
+        HOMEBREW_NO_AUTO_UPDATE=1 brew upgrade "$1"
+    else
+        HOMEBREW_NO_AUTO_UPDATE=1 brew install "$1"
+    fi
+}
+
 # Update the repos
 brew update
 
@@ -7,57 +15,58 @@ brew update
 brew doctor
 
 # Install OpenSSL
-brew install openssl
+brew_install_or_upgrade openssl
 
 # Install fish
-# brew install fish
+# brew_install_or_upgrade fish
 
 # Install zsh
-brew install zsh
+brew_install_or_upgrade zsh
 
 # Install developing tools
-brew install node
-brew install n
-brew install yarn
-brew install watchman
-brew install python3
+brew_install_or_upgrade node
+brew_install_or_upgrade n
+brew_install_or_upgrade yarn
+brew_install_or_upgrade watchman
+brew_install_or_upgrade python3
 
 # Install golang
 mkdir $HOME/Go
 mkdir -p $HOME/Go/src/github.com/ben196888
-brew install go
-brew install glide
+brew_install_or_upgrade go
+brew_install_or_upgrade glide
 
 # Install xhyve & docker-machine-driver-xhyve
-brew install --HEAD xhyve
-brew install docker-machine-driver-xhyve
+brew_install_or_upgrade xhyve
+brew_install_or_upgrade docker-machine-driver-xhyve
 # docker-machine-driver-xhyve need root owner and uid
 sudo chown root:wheel $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
 sudo chmod u+s $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
 
 # Install envsubt tool
-brew install gettext
+brew_install_or_upgrade gettext
 
 # Install optimized tools
 #########################
 # Install rg to replace grep
-brew install ripgrep
+brew_install_or_upgrade ripgrep
 # Install command line fuzzy finder
-brew install fzf
+brew_install_or_upgrade fzf
 # Install tree
-brew install tree
+brew_install_or_upgrade tree
 # Install ack
-brew install ack
+brew_install_or_upgrade ack
 
 # Install security tools
-brew install gpg2
+brew_install_or_upgrade gpg2
 
 # Install internet tools
-brew install nmap
+brew_install_or_upgrade nmap
 
 # Install deployment tools/otherCLI
-brew install kubectl
-brew install kompose
+brew_install_or_upgrade kubectl
+brew_install_or_upgrade kompose
 
-brew install awscli
-brew install heroku
+brew_install_or_upgrade awscli
+
+return
