@@ -24,10 +24,16 @@ brew_install_or_upgrade openssl
 brew_install_or_upgrade zsh
 
 # Install developing tools
+
+# Install Nodejs
 brew_install_or_upgrade node
 brew_install_or_upgrade n
 brew_install_or_upgrade yarn
 brew_install_or_upgrade watchman
+
+brew_install_or_upgrade deno
+
+# Install python
 brew_install_or_upgrade python3
 
 # Install golang
