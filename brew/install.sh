@@ -42,6 +42,9 @@ mkdir -p $HOME/Go/src/github.com/ben196888
 brew_install_or_upgrade go
 brew_install_or_upgrade glide
 
+# Install rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 # Install xhyve & docker-machine-driver-xhyve
 brew_install_or_upgrade xhyve
 brew_install_or_upgrade docker-machine-driver-xhyve
