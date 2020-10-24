@@ -76,6 +76,4 @@ brew_install_or_upgrade nmap
 brew_install_or_upgrade kubectl
 brew_install_or_upgrade kompose
 
-brew_install_or_upgrade awscli
-
-return
+# brew_install_or_upgrade awscli
