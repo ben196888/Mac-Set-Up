@@ -3,61 +3,61 @@
 ###################
 
 # Install iTerm2
-brew cask install iterm2
+brew install --cask iterm2
 
 # Install Browsers
-brew cask install firefox
-brew cask install google-chrome
+brew install --cask firefox
+brew install --cask google-chrome
 
 # Install Editors
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 
 # Install LaTeX
-brew cask install mactex
-brew cask install texmaker
+brew install --cask mactex
+brew install --cask texmaker
 
 # Install Docker for mac
-brew cask install docker
+brew install --cask docker
 
 # Install Java
-brew cask install java
+brew install --cask java
 
 # Install Dotnet SDK
-brew cask install dotnet-sdk
+brew install --cask dotnet-sdk
 
 # Install Postman
-brew cask install postman
+brew install --cask postman
 
 # Install google cloud SDK
-brew cask install google-cloud-sdk
+brew install --cask google-cloud-sdk
 
 # Install apps
 #################
 
 # Install app cleaner
-brew cask install appcleaner
+brew install --cask appcleaner
 
 # Install Spotify
-brew cask install spotify
+brew install --cask spotify
 
 # Install IM
-brew cask install slack
-brew cask install telegram
-brew cask install messenger
+brew install --cask slack
+brew install --cask telegram
+brew install --cask messenger
 
 # Install virtualbox
-brew cask install virtualbox
-brew cask install vagrant
-brew cask install vagrant-manager
+brew install --cask virtualbox
+brew install --cask vagrant
+brew install --cask vagrant-manager
 
 # Install minikube
-brew cask install minikube
+brew install --cask minikube
 
 # Install Helper tools
-brew cask install spectacle
-brew cask install dash
+brew install --cask spectacle
+brew install --cask dash
 
-brew cask install fork
+brew install --cask fork
 
 # Install transmission
-brew cask install transmission
+brew install --cask transmission
