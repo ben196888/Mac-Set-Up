@@ -75,5 +75,3 @@ brew_install_or_upgrade nmap
 # Install deployment tools/otherCLI
 brew_install_or_upgrade kubectl
 brew_install_or_upgrade kompose
-
-# brew_install_or_upgrade awscli

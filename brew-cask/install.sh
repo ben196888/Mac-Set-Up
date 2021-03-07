@@ -45,11 +45,6 @@ brew install --cask slack
 brew install --cask telegram
 brew install --cask messenger
 
-# Install virtualbox
-brew install --cask virtualbox
-brew install --cask vagrant
-brew install --cask vagrant-manager
-
 # Install minikube
 brew install --cask minikube
 
