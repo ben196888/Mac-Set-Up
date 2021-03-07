@@ -54,7 +54,7 @@ brew install --cask vagrant-manager
 brew install --cask minikube
 
 # Install Helper tools
-brew install --cask spectacle
+brew install --cask rectangle
 brew install --cask dash
 
 brew install --cask fork
