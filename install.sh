@@ -8,5 +8,6 @@ sudo xcode-select --switch /Library/Developer/CommandLineTools && # node-gyp reb
 ./zsh/install.sh && # Install zsh, oh my zsh
 ./node/install.sh && # Install node global modules
 ./python/install.sh && # Install python packages and clis
+./rust/install.sh && # Install rust
 ./fonts/install.sh && # Install powerline fonts
 ./dotfiles/install.sh # set up all dotfiles
