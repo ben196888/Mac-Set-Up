@@ -65,6 +65,8 @@ brew_install_or_upgrade fzf
 brew_install_or_upgrade tree
 # Install ack
 brew_install_or_upgrade ack
+# Install git delta
+brew_install_or_upgrade git-delta
 
 # Install security tools
 brew_install_or_upgrade gpg2
