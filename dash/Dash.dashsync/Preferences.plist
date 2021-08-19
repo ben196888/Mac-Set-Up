@@ -30,7 +30,7 @@
 			<key>domenic/sinon-chai</key>
 			<dict>
 				<key>date</key>
-				<date>2019-10-06T01:59:08Z</date>
+				<date>2021-05-25T15:11:18Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -354,6 +354,11 @@
 			<dict>
 				<key>date</key>
 				<date>2018-10-01T01:27:58Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Rust.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-19T15:46:02Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Sinon.xml</key>
 			<dict>
