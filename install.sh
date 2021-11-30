@@ -1,13 +1,25 @@
-#!/bin/bash
+#!/bin/bash -e
 
-xcode-select --install || true && # Install Xcode Command Line Tools
-sudo xcode-select --switch /Library/Developer/CommandLineTools && # node-gyp rebuild issue. Enable command lint tools and ignore the warnings.
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" && # Install Homebrew
-./brew/install.sh && # Install cmd line tools through brew
-./brew-cask/install.sh && # Install gui apps through brew cask
-./zsh/install.sh && # Install zsh, oh my zsh
-./node/install.sh && # Install node global modules
-./python/install.sh && # Install python packages and clis
-./rust/install.sh && # Install rust
-./fonts/install.sh && # Install powerline fonts
-./dotfiles/install.sh # set up all dotfiles
+# Install Xcode Command Line Tools
+xcode-select --install || true
+
+# node-gyp rebuild issue. Enable command lint tools and ignore the warnings.
+sudo xcode-select --switch /Library/Developer/CommandLineTools
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+# Install cmd line tools through brew
+./brew/install.sh
+# Install gui apps through brew cask
+./brew-cask/install.sh
+# Install zsh, oh my zsh
+./zsh/install.sh
+# Install node global modules
+./node/install.sh
+# Install python packages and clis
+./python/install.sh
+# Install rust
+./rust/install.sh
+# Install powerline fonts
+./fonts/install.sh
+# set up all dotfiles
+./dotfiles/install.sh
