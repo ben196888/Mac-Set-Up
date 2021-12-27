@@ -45,6 +45,10 @@ brew_install_or_upgrade glide
 # Install rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
+# Install LaTeX
+brew_install_or_upgrade install texlive
+brew_install_or_upgrade install latexindent
+
 # Install xhyve & docker-machine-driver-xhyve
 brew_install_or_upgrade xhyve
 brew_install_or_upgrade docker-machine-driver-xhyve

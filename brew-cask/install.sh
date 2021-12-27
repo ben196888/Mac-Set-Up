@@ -12,10 +12,6 @@ brew install --cask google-chrome
 # Install Editors
 brew install --cask visual-studio-code
 
-# Install LaTeX
-brew install --cask mactex
-brew install --cask texmaker
-
 # Install Docker for mac
 brew install --cask docker
 
