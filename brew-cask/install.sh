@@ -36,6 +36,9 @@ brew install --cask appcleaner
 # Install Spotify
 brew install --cask spotify
 
+# Install Tidal
+brew install --cask tidal
+
 # Install IM
 brew install --cask slack
 brew install --cask telegram
