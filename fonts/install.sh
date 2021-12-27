@@ -1,4 +1,4 @@
-
+#!/bin/bash -e
 # Install powerline fonts
 
 # clone
