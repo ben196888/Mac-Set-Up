@@ -1,3 +1,6 @@
+# Install fish
+# brew_install_or_upgrade fish
+
 omf theme cmorrell ;or omf install cmorrell
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
 fisher add edc/bass

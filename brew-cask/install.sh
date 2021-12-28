@@ -1,5 +1,4 @@
-#!/bin/sh
-# brew cask install
+#!/bin/sh -e
 ###################
 
 # Install iTerm2
@@ -15,12 +14,6 @@ brew install --cask visual-studio-code
 # Install Docker for mac
 brew install --cask docker
 
-# Install Java
-brew install --cask java
-
-# Install Dotnet SDK
-brew install --cask dotnet-sdk
-
 # Install Postman
 brew install --cask postman
 
@@ -33,25 +26,16 @@ brew install --cask google-cloud-sdk
 # Install app cleaner
 brew install --cask appcleaner
 
-# Install Spotify
-brew install --cask spotify
-
 # Install Tidal
 brew install --cask tidal
 
 # Install IM
 brew install --cask slack
-brew install --cask telegram
 brew install --cask messenger
-
-# Install minikube
-brew install --cask minikube
 
 # Install Helper tools
 brew install --cask rectangle
 brew install --cask dash
-
-brew install --cask fork
 
 # Install transmission
 brew install --cask transmission
