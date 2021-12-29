@@ -1,8 +1,6 @@
 #!/bin/sh
 
-# Install Nodejs
-brew install node
-
+# Replace node with n due to homebrew and n are using different root folder
 # install n for node version management
 brew install n
 # make cache folder (if missing) and take ownership
@@ -12,6 +10,9 @@ sudo chown -R $(whoami) /usr/local/n
 sudo mkdir -p /usr/local/bin /usr/local/lib /usr/local/include /usr/local/share
 # take ownership of Node.js install destination folders
 sudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/include /usr/local/share
+
+# Install node lts
+n lts
 
 brew install yarn
 brew install watchman
