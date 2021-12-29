@@ -124,8 +124,14 @@ bindkey "^[^[[D" backward-word
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# enable homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+# enable starship
+eval "$(starship init zsh)"
+
+# set gpg tty to be current terminal
+export GPG_TTY=$(tty)
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="~/.sdkman"
 [[ -s "~/.sdkman/bin/sdkman-init.sh" ]] && source "~/.sdkman/bin/sdkman-init.sh"
-
-eval "$(starship init zsh)"

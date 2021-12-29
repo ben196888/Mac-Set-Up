@@ -1,13 +1,14 @@
 [user]
 	name = Ben Liu
 	email = ben196888@gmail.com
+	signingkey = GPG_SIGNING_KEY
 
 [core]
 	editor = code --wait
 	excludesfile = ~/.gitignore_global
 
 [commit]
-	gpgsign = false
+	gpgsign = true
 
 [pager]
 		diff = delta
@@ -28,7 +29,7 @@
 		file-decoration-style = none
 
 [gpg]
-	program = /usr/local/bin/gpg
+	program = /opt/homebrew/bin/gpg
 
 [pull]
 	rebase = true

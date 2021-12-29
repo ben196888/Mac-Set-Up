@@ -28,8 +28,5 @@ brew_install_or_upgrade tree
 # Install ack
 brew_install_or_upgrade ack
 
-# Install security tools
-brew_install_or_upgrade gpg2
-
 # Install internet tools
 brew_install_or_upgrade nmap

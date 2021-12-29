@@ -21,3 +21,14 @@ ssh-add --apple-use-keychain ~/.ssh/id_github
 echo "==== Add new SSH key in github ===="
 cat ~/.ssh/id_github.pub
 echo "==================================="
+
+# Install security tools
+brew install gpg2
+
+echo "==== Generate RSA key ===="
+gpg --full-generate-key
+echo "=========================="
+
+echo "====== List GPG RSA key ======"
+gpg --list-secret-keys --keyid-format=long
+echo "=============================="
