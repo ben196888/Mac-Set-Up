@@ -32,6 +32,8 @@ brew install --cask tidal
 # Install IM
 brew install --cask slack
 brew install --cask messenger
+brew install --cask signal
+brew install --cask discord
 
 # Install Helper tools
 brew install --cask rectangle
