@@ -11,6 +11,10 @@ softwareupdate --install-rosetta
 
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+# Install rust
+./rust/install.sh
+# Install Java
+./java/install.sh
 # Install cmd line tools through brew
 ./brew/install.sh
 # Install gui apps through brew cask
@@ -25,9 +29,5 @@ softwareupdate --install-rosetta
 ./python/install.sh
 # Instll latex
 ./latex/install.sh
-# Install Java
-./java/install.sh
 # Install go
 ./go/install.sh
-# Install rust
-./rust/install.sh
