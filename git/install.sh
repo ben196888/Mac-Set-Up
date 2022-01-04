@@ -25,6 +25,7 @@ echo "==================================="
 # Install security tools
 brew install gpg2
 
+# TODO: --options [FILE] can read options from file, -a can create ascii armored output
 echo "==== Generate RSA key ===="
 gpg --full-generate-key
 echo "=========================="
@@ -32,3 +33,13 @@ echo "=========================="
 echo "====== List GPG RSA key ======"
 gpg --list-secret-keys --keyid-format=long
 echo "=============================="
+
+# Install github cli
+brew install gh
+
+# Login github before add ssh key and gpg key
+gh auth login
+
+gh ssh-key add ~/.ssh/id_github.pub
+# TODO: find the command line
+# gh gpg-key add ~/.gnupg/pubring.kbx

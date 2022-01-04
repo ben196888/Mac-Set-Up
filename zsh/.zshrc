@@ -78,7 +78,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 export FZF_BASE=/opt/homebrew/bin/fzf
 
-plugins=(git fzf zsh-autosuggestions)
+plugins=(git gh fzf zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
