@@ -26,22 +26,7 @@
 	<key>DHGitHubRepo</key>
 	<dict>
 		<key>installed</key>
-		<dict>
-			<key>domenic/sinon-chai</key>
-			<dict>
-				<key>date</key>
-				<date>2021-05-25T15:11:18Z</date>
-				<key>entry</key>
-				<dict>
-					<key>name</key>
-					<string>domenic/sinon-chai</string>
-					<key>platform</key>
-					<string>github</string>
-					<key>uniqueIdentifier</key>
-					<string>domenic/sinon-chai</string>
-				</dict>
-			</dict>
-		</dict>
+		<dict/>
 		<key>uninstalled</key>
 		<dict>
 			<key>Reactive-Extensions/RxJS</key>
@@ -70,6 +55,20 @@
 					<string>github</string>
 					<key>uniqueIdentifier</key>
 					<string>ReactiveX/rxjs</string>
+				</dict>
+			</dict>
+			<key>domenic/sinon-chai</key>
+			<dict>
+				<key>date</key>
+				<date>2022-01-14T02:33:03Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>domenic/sinon-chai</string>
+					<key>platform</key>
+					<string>github</string>
+					<key>uniqueIdentifier</key>
+					<string>domenic/sinon-chai</string>
 				</dict>
 			</dict>
 			<key>facebook/immutable-js</key>
@@ -153,7 +152,7 @@
 			<key>Enzyme</key>
 			<dict>
 				<key>date</key>
-				<date>2019-03-24T00:03:41Z</date>
+				<date>2022-01-14T02:31:59Z</date>
 				<key>entry</key>
 				<dict>
 					<key>authorLinkHref</key>
@@ -171,7 +170,7 @@
 			<key>Immutable.js</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:27:31Z</date>
+				<date>2022-01-14T02:31:59Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -195,7 +194,7 @@
 			<key>Jest</key>
 			<dict>
 				<key>date</key>
-				<date>2019-02-28T12:10:04Z</date>
+				<date>2022-01-14T02:31:59Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -223,30 +222,10 @@
 					<string>Jest</string>
 				</dict>
 			</dict>
-			<key>Restify</key>
-			<dict>
-				<key>date</key>
-				<date>2018-10-01T01:27:31Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array/>
-					<key>authorLinkHref</key>
-					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Restify#readme</string>
-					<key>authorLinkText</key>
-					<string>Carsten Schabacker</string>
-					<key>name</key>
-					<string>Restify</string>
-					<key>platform</key>
-					<string>usercontribRestify</string>
-					<key>uniqueIdentifier</key>
-					<string>Restify</string>
-				</dict>
-			</dict>
 			<key>RxJS</key>
 			<dict>
 				<key>date</key>
-				<date>2019-09-22T00:09:18Z</date>
+				<date>2022-01-14T02:32:08Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -265,7 +244,28 @@
 			</dict>
 		</dict>
 		<key>uninstalled</key>
-		<dict/>
+		<dict>
+			<key>Restify</key>
+			<dict>
+				<key>date</key>
+				<date>2022-01-14T02:33:10Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Restify#readme</string>
+					<key>authorLinkText</key>
+					<string>Carsten Schabacker</string>
+					<key>name</key>
+					<string>Restify</string>
+					<key>platform</key>
+					<string>usercontribRestify</string>
+					<key>uniqueIdentifier</key>
+					<string>Restify</string>
+				</dict>
+			</dict>
+		</dict>
 	</dict>
 	<key>annotationsAreShown</key>
 	<true/>
@@ -285,103 +285,108 @@
 	<dict>
 		<key>installed</key>
 		<dict>
-			<key>http://kapeli.com/feeds/Chai.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2018-10-01T01:27:33Z</date>
-			</dict>
 			<key>http://kapeli.com/feeds/D3JS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:27:42Z</date>
+				<date>2022-01-14T02:32:17Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Docker.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:30:04Z</date>
+				<date>2022-01-14T02:32:23Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Express.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:27:34Z</date>
+				<date>2022-01-14T02:32:30Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Go.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:27:50Z</date>
+				<date>2022-01-14T02:31:58Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/JavaScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:32:04Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Lo-Dash.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2018-10-01T01:27:57Z</date>
+				<date>2022-01-14T02:33:59Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Mocha.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:27:45Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/MomentJS.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2018-10-01T01:27:45Z</date>
+				<date>2022-01-14T02:32:22Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/MongoDB.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:28:01Z</date>
+				<date>2022-01-14T02:33:07Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/NodeJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:27:57Z</date>
+				<date>2022-01-14T02:33:11Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/PostgreSQL.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:27:47Z</date>
+				<date>2022-01-14T02:33:11Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Python_3.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2022-01-14T02:38:45Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/React.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:28:02Z</date>
+				<date>2022-01-14T02:32:38Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Redis.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:27:58Z</date>
+				<date>2022-01-14T02:33:09Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Rust.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-19T15:46:02Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Sinon.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2018-10-01T01:27:57Z</date>
+				<date>2022-01-14T02:33:05Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/TypeScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:27:57Z</date>
+				<date>2022-01-14T02:33:20Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/VueJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2018-10-01T01:27:58Z</date>
+				<date>2022-01-14T02:32:47Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
 		<dict>
+			<key>http://kapeli.com/feeds/Chai.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2022-01-14T02:33:05Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/EmberJS.xml</key>
 			<dict>
 				<key>date</key>
 				<date>2017-10-26T23:30:55Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Lo-Dash.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2022-01-14T02:33:22Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/MomentJS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2022-01-14T02:33:05Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Sinon.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2022-01-14T02:33:25Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/UnderscoreJS.xml</key>
 			<dict>
@@ -551,7 +556,7 @@
 			<key>isDefault</key>
 			<true/>
 			<key>isEnabled</key>
-			<true/>
+			<false/>
 			<key>name</key>
 			<string>Google</string>
 			<key>url</key>
@@ -563,7 +568,7 @@
 			<key>isDefault</key>
 			<true/>
 			<key>isEnabled</key>
-			<false/>
+			<true/>
 			<key>name</key>
 			<string>DuckDuckGo</string>
 			<key>url</key>
