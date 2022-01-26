@@ -15,6 +15,7 @@ sudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/include /usr/lo
 n lts
 
 brew install yarn
+brew install pnpm
 brew install watchman
 brew install deno
 
