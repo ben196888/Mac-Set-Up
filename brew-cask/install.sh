@@ -26,8 +26,8 @@ brew install --cask google-cloud-sdk
 # Install app cleaner
 brew install --cask appcleaner
 
-# Install Tidal
-brew install --cask tidal
+# Install Spotify
+brew install --cask spotify
 
 # Install IM
 brew install --cask slack
@@ -37,7 +37,6 @@ brew install --cask discord
 
 # Install Helper tools
 brew install --cask rectangle
-brew install --cask dash
 
 # Install transmission
 brew install --cask transmission
