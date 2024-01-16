@@ -1,1 +1,1 @@
-curl -s "https://get.sdkman.io?rcupdate=false" | bash
+curl -s "https://get.sdkman.io" | bash
