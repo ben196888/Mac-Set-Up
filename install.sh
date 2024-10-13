@@ -25,6 +25,8 @@ softwareupdate --install-rosetta
 ./zsh/install.sh
 # Install node, yarn, all global tools
 ./node/install.sh
+# Install deno
+./deno/install.sh
 # Install python, packages and clis
 ./python/install.sh
 # Instll latex

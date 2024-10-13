@@ -17,7 +17,6 @@ n lts
 brew install yarn
 brew install pnpm
 brew install watchman
-brew install deno
 
 # Upgrade npm
 npm install -g npm
