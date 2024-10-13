@@ -11,22 +11,22 @@
 	gpgsign = true
 
 [pager]
-		diff = delta
-		log = delta
-		reflog = delta
-		show = delta
+	diff = delta
+	log = delta
+	reflog = delta
+	show = delta
 
 [interactive]
-		diffFilter = delta --color-only
+	diffFilter = delta --color-only
 
 [delta]
-		features = side-by-side line-numbers decorations
-		whitespace-error-style = 22 reverse
+	features = side-by-side line-numbers decorations
+	whitespace-error-style = 22 reverse
 
 [delta "decorations"]
-		commit-decoration-style = bold yellow box ul
-		file-style = bold yellow ul
-		file-decoration-style = none
+	commit-decoration-style = bold yellow box ul
+	file-style = bold yellow ul
+	file-decoration-style = none
 
 [gpg]
 	program = /opt/homebrew/bin/gpg
@@ -36,6 +36,14 @@
 
 [merge]
 	ff = false
+[rerere]
+	enabled = true
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
 
 [alias]
 	a = add
