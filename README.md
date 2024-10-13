@@ -11,15 +11,17 @@ Setup my new mac in one line
 ### Terminal Setup
 
 - iterm2
+- warp (trialing)
+- allactritty (trialing)
 - [Nerdfont](https://www.nerdfonts.com/)
 - [Starship](https://starship.rs/)
-- [fish](https://fishshell.com/)
+- [zsh](https://www.zsh.org/) + [oh-my-zsh](https://ohmyz.sh/)
 - command line fuzzy finder
 - ripgrep
 - openssl
 
 > iterm2 - Configure color schemes
-> 
+>
 > Visit [github page](https://github.com/mbadolato/iTerm2-Color-Schemes) to get more details
 > `git clone https://github.com/mbadolato/iTerm2-Color-Schemes`
 > Import and use `MaterialDark` in iTerm2.
@@ -105,7 +107,6 @@ Setup my new mac in one line
 
 - appcleaner
 - rectangle
-- dash (deprecated)
 
 ## Todo
 
@@ -113,11 +114,11 @@ Setup my new mac in one line
 - don't install iterm2 color schemes but import the color settings
 - auto setup and import iterm2 configs
 - auto setup vscode
-- auto setup dash
+- migrate to warp or alacritty
 
 ## deprecated
 
-- zsh - using fish
+- fish - using zsh
 - java - using sdkman for total java solution
 - spotify - using tidal
 - telegram - using signal
@@ -125,3 +126,4 @@ Setup my new mac in one line
 - fork - using cli
 - yarn global pre-installs - using npx
 - docker pre-pulled images - saving storage
+- dash
