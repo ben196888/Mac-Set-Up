@@ -5,6 +5,8 @@
 
 # Install cli tools (openSSL, rg, tree, ack, nmap)
 ./cli_tools.sh
+# Setup git config and ssh
+./git/install.sh
 
 # Install rust
 ./rust/install.sh
@@ -12,8 +14,6 @@
 ./java/install.sh
 # Install gui apps through brew cask
 ./brew-cask/install.sh
-# Install git
-./git/install.sh
 # Install zsh, oh my zsh, plugins, starship
 ./zsh/install.sh
 # Install node, yarn, all global tools
