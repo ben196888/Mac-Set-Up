@@ -36,7 +36,9 @@ if ! command -v brew &>/dev/null; then
   # Append Homebrew to PATH
   echo "Adding Homebrew to PATH..."
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-  eval "$(/opt/homebrew/bin/brew shellenv)"
 else
   echo "Homebrew already installed."
 fi
+
+# Export Homebrew environment variables for the current shell
+eval "$(/opt/homebrew/bin/brew shellenv)"

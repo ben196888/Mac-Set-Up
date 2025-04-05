@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 # Run essential setup (Xcode, Rosetta, Homebrew)
-./essential.sh
+source ./essential.sh
 
 # Install cli tools (openSSL, rg, tree, ack, nmap)
 ./cli_tools.sh
