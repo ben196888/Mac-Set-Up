@@ -47,7 +47,7 @@ fi
 echo "Adding SSH key to GitHub..."
 if ! gh auth status &>/dev/null; then
   echo "You are not logged into GitHub CLI. Logging in now..."
-  gh auth login
+  gh auth login --hostname github.com --git-protocol ssh --web --skip-ssh-key -s admin:public_key
 fi
 
 if gh auth status &>/dev/null; then
