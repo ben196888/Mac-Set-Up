@@ -3,12 +3,13 @@
 # Run essential setup (Xcode, Rosetta, Homebrew)
 ./essential.sh
 
+# Install cli tools (openSSL, rg, tree, ack, nmap)
+./cli_tools.sh
+
 # Install rust
 ./rust/install.sh
 # Install Java
 ./java/install.sh
-# Install cmd line tools through brew
-./brew/install.sh
 # Install gui apps through brew cask
 ./brew-cask/install.sh
 # Install git
