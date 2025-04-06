@@ -1,4 +1,5 @@
-#!/bin/bash -e
+#!/bin/bash
+set -e
 
 # Run essential setup (Xcode, Rosetta, Homebrew)
 source ./essential.sh
@@ -7,6 +8,8 @@ source ./essential.sh
 ./cli_tools.sh
 # Setup git config and ssh
 ./git/install.sh
+# Install zsh, oh my zsh, plugins, starship
+./zsh/install.sh
 
 # Install rust
 ./rust/install.sh
@@ -14,8 +17,6 @@ source ./essential.sh
 ./java/install.sh
 # Install gui apps through brew cask
 ./brew-cask/install.sh
-# Install zsh, oh my zsh, plugins, starship
-./zsh/install.sh
 # Install node, yarn, all global tools
 ./node/install.sh
 # Install deno
