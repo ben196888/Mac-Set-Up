@@ -1,13 +1,6 @@
 #!/bin/sh -e
 ###################
 
-# Install iTerm2
-brew install --cask iterm2
-
-# Install hack-font
-brew tap homebrew/cask-fonts &&
-brew install --cask font-hack-nerd-font
-
 # Install Browsers
 brew install --cask firefox
 brew install --cask google-chrome
