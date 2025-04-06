@@ -10,6 +10,8 @@ source ./essential.sh
 ./git/install.sh
 # Install zsh, oh my zsh, plugins, starship
 ./zsh/install.sh
+# Install terminal apps (warp)
+./terminal.sh
 
 # Install rust
 ./rust/install.sh
