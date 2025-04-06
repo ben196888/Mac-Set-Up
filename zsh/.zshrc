@@ -21,6 +21,40 @@ if [[ "$TERM_PROGRAM" == "WarpTerminal" ]]; then
   export WARP_ENABLE_SHELL_BLOCK_TITLE=true
 fi
 
+# Optional: enable Go environment variables if Go is installed
+if command -v go >/dev/null 2>&1; then
+  export GOPATH="$HOME/go"
+  export PATH="$PATH:$GOPATH/bin"
+fi
+
+# Optional: add Deno to PATH if installed
+if [ -d "$HOME/.deno/bin" ]; then
+  export PATH="$HOME/.deno/bin:$PATH"
+fi
+
+# Optional: add MacTeX to PATH if installed
+if [ -d "/Library/TeX/texbin" ]; then
+  export PATH="/Library/TeX/texbin:$PATH"
+fi
+
+# Pyenv
+if command -v pyenv >/dev/null 2>&1; then
+  export PYENV_ROOT="$HOME/.pyenv"
+  export PATH="$PYENV_ROOT/bin:$PATH"
+  eval "$(pyenv init --path)"
+  eval "$(pyenv init -)"
+fi
+
+# Poetry completions (if poetry is installed)
+if command -v poetry >/dev/null 2>&1; then
+  eval "$(poetry completions zsh)"
+fi
+
+# Rust (if installed)
+if [ -f "$HOME/.cargo/env" ]; then
+  source "$HOME/.cargo/env"
+fi
+
 # Add user-local bin to PATH if it exists
 [ -d "$HOME/.local/bin" ] && export PATH="$HOME/.local/bin:$PATH"
 

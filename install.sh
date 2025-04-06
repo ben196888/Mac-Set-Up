@@ -13,19 +13,13 @@ source ./essential.sh
 # Install terminal apps (warp)
 ./terminal.sh
 
-# Install rust
-./rust/install.sh
-# Install Java
-./java/install.sh
+# Install languages (rust, java, node, deno, python, latex, go)
+./languages/go.sh
+./languages/java.sh
+./languages/javascript.sh
+./languages/latex.sh
+./languages/python.sh
+./languages/rust.sh
+
 # Install gui apps through brew cask
 ./brew-cask/install.sh
-# Install node, yarn, all global tools
-./node/install.sh
-# Install deno
-./deno/install.sh
-# Install python, packages and clis
-./python/install.sh
-# Instll latex
-./latex/install.sh
-# Install go
-./go/install.sh
