@@ -4,7 +4,6 @@
 	# signingkey = GPG_SIGNING_KEY
 
 [core]
-	editor = code --wait
 	excludesfile = ~/.gitignore_global
 
 [commit]

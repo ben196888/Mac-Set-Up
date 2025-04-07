@@ -5,9 +5,6 @@
 brew install --cask firefox
 brew install --cask google-chrome
 
-# Install Editors
-brew install --cask visual-studio-code
-
 # Install Docker for mac
 brew install --cask docker
 

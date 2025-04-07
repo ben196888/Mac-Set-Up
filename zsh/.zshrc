@@ -55,6 +55,11 @@ if [ -f "$HOME/.cargo/env" ]; then
   source "$HOME/.cargo/env"
 fi
 
+# Set VS Code as default editor if installed
+if command -v code >/dev/null 2>&1; then
+  export EDITOR="code --wait"
+fi
+
 # Add user-local bin to PATH if it exists
 [ -d "$HOME/.local/bin" ] && export PATH="$HOME/.local/bin:$PATH"
 
