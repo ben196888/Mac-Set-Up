@@ -14,6 +14,7 @@ source ./essential.sh
 ./terminal.sh
 
 # Install languages (rust, java, node, deno, python, latex, go)
+./languages/dotnet.sh
 ./languages/go.sh
 ./languages/java.sh
 ./languages/javascript.sh

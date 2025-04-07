@@ -21,6 +21,12 @@ if [[ "$TERM_PROGRAM" == "WarpTerminal" ]]; then
   export WARP_ENABLE_SHELL_BLOCK_TITLE=true
 fi
 
+# .NET SDK (add to PATH if installed via Homebrew or manually)
+/usr/local/share/dotnet/dotnet --info >/dev/null 2>&1 && {
+  export DOTNET_ROOT="/usr/local/share/dotnet"
+  export PATH="$DOTNET_ROOT:$PATH"
+}
+
 # Optional: enable Go environment variables if Go is installed
 if command -v go >/dev/null 2>&1; then
   export GOPATH="$HOME/go"
