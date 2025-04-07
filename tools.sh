@@ -20,6 +20,5 @@ brew install --cask rectangle
 
 # Productivity tools
 brew install --cask raycast
-brew install --cask grammarly
 
 echo "Other tools installation complete."
