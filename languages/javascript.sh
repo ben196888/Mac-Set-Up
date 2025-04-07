@@ -18,6 +18,6 @@ n lts
 npm install -g npm yarn pnpm
 
 echo "Installing Deno..."
-curl -fsSL https://deno.land/install.sh | sh
+curl -fsSL https://deno.land/install.sh | sh -s -- -y --no-modify-path
 
 echo "JavaScript environment setup complete."
