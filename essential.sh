@@ -1,4 +1,8 @@
-#!/bin/bash -e
+#!/bin/bash
+set -e
+
+# Create WebPrjcts directory if not exists
+mkdir -p ~/WebPrjcts
 
 # Install Xcode Command Line Tools
 if ! xcode-select -p &>/dev/null; then
