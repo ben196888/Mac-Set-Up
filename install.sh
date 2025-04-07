@@ -25,6 +25,8 @@ source ./essential.sh
 ./ides.sh
 # Install browsers (firefox, chrome, edge, duckduckgo)
 ./browsers.sh
+# Install developer tools (orbstack, kubectl, postman, google cloud SDK)
+./devtools.sh
 
 # Install gui apps through brew cask
 ./brew-cask/install.sh

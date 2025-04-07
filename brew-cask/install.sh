@@ -1,15 +1,6 @@
 #!/bin/sh -e
 ###################
 
-# Install Docker for mac
-brew install --cask docker
-
-# Install Postman
-brew install --cask postman
-
-# Install google cloud SDK
-brew install --cask google-cloud-sdk
-
 # Install apps
 #################
 
@@ -27,6 +18,3 @@ brew install --cask discord
 
 # Install Helper tools
 brew install --cask rectangle
-
-# Install transmission
-brew install --cask transmission
