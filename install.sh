@@ -21,5 +21,8 @@ source ./essential.sh
 ./languages/python.sh
 ./languages/rust.sh
 
+# Install IDEs (VSCode, IntelliJ, Android Studio)
+./ides.sh
+
 # Install gui apps through brew cask
 ./brew-cask/install.sh
