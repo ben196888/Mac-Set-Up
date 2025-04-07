@@ -23,6 +23,8 @@ source ./essential.sh
 
 # Install IDEs (VSCode, IntelliJ, Android Studio)
 ./ides.sh
+# Install browsers (firefox, chrome, edge, duckduckgo)
+./browsers.sh
 
 # Install gui apps through brew cask
 ./brew-cask/install.sh

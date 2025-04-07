@@ -1,10 +1,6 @@
 #!/bin/sh -e
 ###################
 
-# Install Browsers
-brew install --cask firefox
-brew install --cask google-chrome
-
 # Install Docker for mac
 brew install --cask docker
 
