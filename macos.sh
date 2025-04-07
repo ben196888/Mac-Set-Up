@@ -32,4 +32,17 @@ defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 # Remap Caps Lock to Control
 hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x7000000E0}]}'
 
+# Disable spotlight hotkey
+defaults write com.apple.symbolichotkeys.plist AppleSymbolicHotKeys -dict-add 64 "{ enabled = 0; value = { parameters = (65535, 49, 1048576); type = 'sprt'; }; }"
+
+# Hide Spotlight icon from menu bar
+defaults write com.apple.Spotlight MenuBarExtrasEnabled -bool false
+
+# Show language input menu in menu bar
+defaults write com.apple.TextInputMenu visible -bool true
+defaults write com.apple.TextInputMenu.preferences TextInputMenuEnabled -bool true
+
+# Disable Fn key functionality
+defaults write com.apple.HIToolbox AppleFnUsageType -int 0
+
 echo "macOS system preferences configured. Some changes may require a logout or reboot to fully apply."
