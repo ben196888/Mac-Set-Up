@@ -30,3 +30,6 @@ source ./essential.sh
 ./devtools.sh
 # Install other tools
 ./tools.sh
+
+# Setup macOS preferences
+./macos.sh
