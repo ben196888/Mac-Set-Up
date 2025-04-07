@@ -1,129 +1,109 @@
-# Mac-Set-Up
+# macOS Dev Environment Setup
 
-Setup my new mac in one line
+Automate the installation and configuration of a full macOS development environment: CLI tools, programming languages, editors, and system preferences.
 
-```shell
+---
+
+## 📁 Folder Structure
+
+```bash
+.
+├── git/
+│   ├── .gitconfig
+│   ├── .gitignore_global
+│   └── install.sh
+├── languages/
+│   ├── dotnet.sh
+│   ├── go.sh
+│   ├── java.sh
+│   ├── javascript.sh
+│   ├── latex.sh
+│   ├── python.sh
+│   └── rust.sh
+├── zsh/
+│   ├── .zshrc
+│   └── install.sh
+├── browsers.sh
+├── cli_tools.sh
+├── devtools.sh
+├── essential.sh
+├── ides.sh
+├── install.sh
+├── macos.sh
+├── terminal.sh
+├── tools.sh
+└── README.md
+```
+
+---
+
+## 🚀 Setup Instructions
+
+### 1. Clone this repo
+
+```bash
+git clone https://github.com/ben196888/mac-set-up.git
+cd mac-set-up
+```
+
+### 2. Run the full setup
+
+```bash
+chmod +x install.sh
 ./install.sh
 ```
 
-## What includes
+> Comment out any steps in `install.sh` if you only want part of the setup.
 
-### Terminal Setup
+---
 
-- iterm2
-- warp (trialing)
-- allactritty (trialing)
-- [Nerdfont](https://www.nerdfonts.com/)
-- [Starship](https://starship.rs/)
-- [zsh](https://www.zsh.org/) + [oh-my-zsh](https://ohmyz.sh/)
-- command line fuzzy finder
-- ripgrep
-- openssl
+### 🔁 Alternative: Download ZIP and run
 
-> iterm2 - Configure color schemes
->
-> Visit [github page](https://github.com/mbadolato/iTerm2-Color-Schemes) to get more details
-> `git clone https://github.com/mbadolato/iTerm2-Color-Schemes`
-> Import and use `MaterialDark` in iTerm2.
+1. Download this repo as a ZIP from GitHub
+   [Download ZIP](https://github.com/ben196888/mac-set-up/archive/refs/heads/master.zip)
 
-### Package management
+2. Extract the ZIP file and navigate to the folder:
+```bash
+cd ~/Downloads/mac-set-up-master  # Or wherever you unzipped it
+```
 
-- brew
-- brew --cask
+3. Run the installer:
+```bash
+chmod +x install.sh
+./install.sh
+```
 
-### Coding language setup
+---
 
-#### git
+## ⚙️ What It Installs
 
-- git alias
-- git global config
-- git global ignore
+- **Zsh config**: with Starship, Oh My Zsh, and language-aware prompts
+- **Git setup**: with aliases, delta, and conditional editor logic
+- **VS Code + Cursor**: with settings sync and optional extension restore
+- **Terminal**: Warp + shell utilities
+- **Languages**: Go, Python, Node (via n), Rust, Java (via SDKMAN), .NET (via Homebrew), LaTeX
+- **Browsers**: Firefox, Chrome, Edge, DuckDuckGo
+- **Dev Tools**: OrbStack (Docker), kubectl, Postman, Google Cloud SDK, ChatGPT, Raycast
+- **System Preferences**: Dock, trackpad gestures, key remapping, fast repeat rate
 
-#### javascript
+---
 
-- n - nodejs version control
-- nodejs
-- npx
+## 🧠 Notes
 
-#### Python
+- All `.zshrc` additions are conditional to avoid errors if tools aren't installed
+- `macos.sh` applies safe `defaults write` and `hidutil` changes (some may require logout/reboot)
+- You can export/import GUI app settings (like Rectangle) separately if needed
 
-- Python3
-- virtualenv
+---
 
-#### LaTeX
+## 🧩 Optional Improvements
 
-- texlive
-- latexindent
+- Add login item setup via `osascript` (e.g., for Raycast or Rectangle)
+- Add versioned `global.json` for .NET SDK pinning
+- Add sync logic for VS Code extensions
 
-#### rust
+---
 
-- std installtion
+## 📄 License
 
-#### golang
-
-- std installation
-
-#### java
-
-- sdkman - java, scala, sbt, ... version control
-
-#### dotnet (to be migrated from my workspace)
-
-- dotnet multiple core management
-- dotnet global tools
-
-### Develop environment setup
-
-#### VSCode
-
-- vscode
-- git integration
-- vscode extensions
-
-#### Docker
-
-- docker machine and gui
-
-#### Postman
-
-- postman gui
-
-### App setup
-
-#### Browser
-
-- Firefox
-- Chrome
-- Edge
-
-#### IM
-
-- slack
-- messenger
-- signal
-- discord
-
-#### Others
-
-- appcleaner
-- rectangle
-
-## Todo
-
-- download zip from release
-- don't install iterm2 color schemes but import the color settings
-- auto setup and import iterm2 configs
-- auto setup vscode
-- migrate to warp or alacritty
-
-## deprecated
-
-- fish - using zsh
-- java - using sdkman for total java solution
-- spotify - using tidal
-- telegram - using signal
-- minikube - using docker machine
-- fork - using cli
-- yarn global pre-installs - using npx
-- docker pre-pulled images - saving storage
-- dash
+MIT — use it, fork it, improve it.
