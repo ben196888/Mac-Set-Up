@@ -28,6 +28,5 @@ source ./essential.sh
 ./browsers.sh
 # Install developer tools (orbstack, kubectl, postman, google cloud SDK)
 ./devtools.sh
-
-# Install gui apps through brew cask
-./brew-cask/install.sh
+# Install other tools
+./tools.sh
