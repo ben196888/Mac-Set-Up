@@ -15,9 +15,6 @@ brew install --cask postman
 # Google Cloud SDK
 brew install --cask google-cloud-sdk
 
-# Cursor (AI code editor)
-brew install --cask cursor
-
 # ChatGPT desktop app (OpenAI)
 brew install --cask chatgpt
 

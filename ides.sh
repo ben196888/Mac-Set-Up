@@ -12,3 +12,7 @@ if command -v code >/dev/null 2>&1; then
 else
   echo "VS Code not detected. Skipping Git editor setup."
 fi
+
+echo "Installing Cursor..."
+brew install --cask cursor
+echo "Cursor installation complete."
