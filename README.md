@@ -98,9 +98,12 @@ chmod +x install.sh
 
 ## 🧩 Optional Improvements
 
+- Implement checkpoint/resume mechanism to allow interrupted installations to continue from the last successful step, with progress tracking and state persistence
 - Add login item setup via `osascript` (e.g., for Raycast or Rectangle)
 - Add versioned `global.json` for .NET SDK pinning
 - Add sync logic for VS Code extensions
+- Add robust brew cask installation handling with pre-installation checks and force flags to prevent interruptions from existing app installations
+- Add checks for npm global installations to prevent conflicts with Homebrew-installed packages (e.g., yarn, pnpm)
 
 ---
 
