@@ -21,10 +21,6 @@ defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
-# Keyboard: set faster key repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 15
-
 # Expand save and print dialogs by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
