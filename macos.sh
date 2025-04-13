@@ -41,4 +41,10 @@ defaults write com.apple.TextInputMenu.preferences TextInputMenuEnabled -bool tr
 # Disable Fn key functionality
 defaults write com.apple.HIToolbox AppleFnUsageType -int 0
 
+# Disable default input source shortcut (Command+Space)
+defaults write com.apple.symbolichotkeys.plist AppleSymbolicHotKeys -dict-add 60 "{ enabled = 0; value = { parameters = (65535, 49, 1048576); type = 'sprt'; }; }"
+
+# Set up custom global shortcut for input source (Option+Space)
+defaults write com.apple.symbolichotkeys.plist AppleSymbolicHotKeys -dict-add 60 "{ enabled = 1; value = { parameters = (65535, 49, 786432); type = 'sprt'; }; }"
+
 echo "macOS system preferences configured. Some changes may require a logout or reboot to fully apply."
