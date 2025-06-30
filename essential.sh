@@ -35,14 +35,19 @@ fi
 # Install Homebrew
 if ! command -v brew &>/dev/null; then
   echo "Installing Homebrew..."
-  NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-
-  # Append Homebrew to PATH
+  NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  # Determine the brew prefix based on architecture
+  if [[ $(uname -m) == "arm64" ]]; then
+    BREW_PREFIX="/opt/homebrew"
+  else
+    BREW_PREFIX="/usr/local"
+  fi
   echo "Adding Homebrew to PATH..."
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+  echo "eval \"$($BREW_PREFIX/bin/brew shellenv)\"" >> ~/.zprofile
 else
+  BREW_PREFIX="$(brew --prefix)"
   echo "Homebrew already installed."
 fi
 
 # Export Homebrew environment variables for the current shell
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$($BREW_PREFIX/bin/brew shellenv)"
